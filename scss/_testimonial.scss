@@ -1,0 +1,68 @@
+/* ==========================================================================
+  Testimonial index2 section
+  ========================================================================== */
+#client-talk {
+
+
+  .client-words {
+    margin-bottom: 30px;
+    border: 1px solid#ddd;
+    padding: 28px;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+
+    h5 {
+      font-size: 16px;
+      font-weight: 500;
+      color: #151948;
+      line-height: 22px;
+
+      span {
+        color: #5e629c;
+        font-size: 12px;
+        font-style: italic;
+      }
+    }
+
+    span.qoute-icon {
+      background: #ff704f;
+      color: #fff;
+      border-radius: 50px;
+      width: 38px;
+      height: 34px;
+      text-align: center;
+      position: absolute;
+      right: 30px;
+      bottom: 32px;
+      box-shadow: 0px 0px 30px 10px rgba(255, 112, 79, 0.24);
+    }
+
+    span.qoute-icon i {
+      line-height: 34px;
+      font-size: 20px;
+      position: relative;
+    }
+
+    p {
+      font-size: 18px;
+      color: #5e629c;
+      font-style: italic;
+      line-height: 32px;
+      margin-bottom: 20px;
+
+    }
+
+    &:hover {
+
+      border: 1px solid $red_rose_bg;
+      box-shadow: 0px 0px 25px 0px rgba(255, 112, 79, 0.24);
+      -moz-transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      transition: all .4s ease;
+    }
+  }
+
+
+}

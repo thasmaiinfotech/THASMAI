@@ -1,0 +1,113 @@
+// Home header Two
+.hero-area2 {
+  position: relative;
+
+  .overlay-light {
+    background: #3023ae;
+    background: linear-gradient(95deg, #3023ae 40%, #c86dd7 100%) !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+
+  .contents {
+    padding: 280px 0 270px;
+
+    @media #{$xs} {
+      padding: 250px 0 70px;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 60px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    p.para {
+      font-size: 14px;
+    }
+
+    form.subsribe-input {
+      margin-top: 35px;
+
+      .form-subsribe {
+        position: relative;
+        width: 85%;
+
+        @media #{$xs} {
+          width: 100%;
+        }
+
+        input[type="email"] {
+          min-height: 52px;
+          padding: 0px 0 0 28px;
+          font-size: 14px;
+          color: #5e629c;
+          font-style: italic;
+          border-color: #ff704f;
+
+          @media #{$xs} {
+            padding-left: 15px;
+          }
+        }
+
+        .form-control:focus {
+          border: 1px solid #ff704f;
+          outline: none;
+          box-shadow: none;
+          background: #e5fff3;
+        }
+
+      }
+
+      .btn-subsribe {
+        background-color: #ff704f;
+        z-index: 1;
+        box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+        width: 160px;
+        height: 52px;
+        padding: 14px 15px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 15px;
+        text-transform: inherit;
+        font-weight: 500;
+
+        @media #{$xs} {
+          min-width: 100px;
+        }
+      }
+    }
+  }
+
+  .intro-img {
+    @media #{$md} {
+      padding-bottom: 100px;
+    }
+    @media #{$xs} {
+      padding-bottom: 70px;
+    }
+
+    img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
